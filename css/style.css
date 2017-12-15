@@ -248,6 +248,7 @@ hr {
     width: 80%;
     display: block;
     margin: auto;
+    padding: 5px;
 }
 
 .opgaveinfo a {
