@@ -15,6 +15,7 @@ body {
     min-width: 400px;
 }
 
+/* Navigation start */
 .topnav {
     overflow: hidden;
     margin: auto;
@@ -45,13 +46,9 @@ body {
 .topnav .icon {
     display: none;
 }
+/* Navigation slut */
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
+/* Portfolio start */
 .portfolio {
     display: flex;
     width: 100%;
@@ -82,7 +79,6 @@ a:link {
 .portfoliogrid img {
     max-width: 350px;
     max-height: 350px;
-    max-height: auto;
     margin: auto;
     display: block;
     padding: 35px;
@@ -96,7 +92,9 @@ a:link {
     margin-top: 0px;
 
 }
+/* Portofolio slut */
 
+/* Styling af hr - tager fra: https://codepen.io/ibrahimjabbari/pen/ozinB */
 hr {
     width: 92%;
     border: 0;
@@ -108,6 +106,7 @@ hr {
     margin-top: 50px;
 }
 
+/* Om mig start */
 #grid {
     display: grid;
     height: auto;
@@ -156,8 +155,9 @@ hr {
     grid-column-start: 2;
     grid-column-end: 2;
 }
+/* Om mig slut  */
 
-
+/* Kontakt start */
 #kontakt {
     display: flex;
     margin: 55px;
@@ -193,6 +193,38 @@ hr {
     color: darkgrey;
 }
 
+/* Kontakt form start  */
+.form {
+    width: 50%;
+}
+
+.form input {
+    display: block;
+    border: black 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.form textarea {
+    display: block;
+    margin: auto;
+    border: black solid 2px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+}
+
+#formknap {
+    border-radius: 10px;
+    width: 30%;
+}
+/* Kontakt form slut  */
+/* Kontakt slut */
+
+/* CV start */
 #cv {
     display: flex;
     margin: 50px;
@@ -225,9 +257,9 @@ hr {
     color: black;
     text-decoration: underline;
 }
+/* CV slut */
 
-
-
+/* Footer start */
 .footerlinks {
     width: 100%;
     text-align: center;
@@ -237,6 +269,43 @@ hr {
 .footerlinks a {
     padding: 10px;
     color: black;
+}
+
+footer p {
+    font-size: 60%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Footer slut */
+
+/* Knap til toppen */
+#top {
+    width: 3%;
+    height: auto;
+    margin: auto;
+    bottom: 30px;
+    right: 0px;
+    position: fixed;
+    z-index: 2;
+    color: black;
+    font-size: 150%;
+}
+
+/* Opgaveinformation start */
+#infoflex {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+#infoborder {
+    border-left: thin solid black;
+}
+
+.opgaveinfo img {
+    width: 50%;
+    margin: auto;
+    display: block;
 }
 
 .opgaveoverskrift {
@@ -255,81 +324,19 @@ hr {
     text-decoration: none;
     color: dimgrey;
 }
+/* Opgaveinformation slut */
 
-.artikelbillede {
-    display: block;
-    margin: auto;
-    width: 25%;
+.margin {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.form {
-    width: 50%;
-}
-
-.form input {
-    display: block;
-    border: black 2px solid;
-    border-radius: 10px;
-    padding: 15px;
-    margin: auto;
-    width: 100%;
-
-}
-
-.form textarea {
-    display: block;
-    margin: auto;
-    border: black solid 2px;
-    border-radius: 10px;
-    padding: 15px;
-    width: 100%;
-}
-
-#formknap {
-    border-radius: 10px;
-    width: 30%;
-}
-
-footer p {
-    font-size: 60%;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-
-#top {
-    width: 3%;
-    height: auto;
-    margin: auto;
-    bottom: 30px;
-    right: 0px;
-    position: fixed;
-    z-index: 2;
-    color: black;
-    font-size: 150%;
-}
-
-#infoflex {
-    display: flex;
-    width: 80%;
-    margin: auto;
-}
-
-#infoborder {
-    border-left: thin solid black;
-}
-
-.opgaveinfo img {
-    width: 50%;
-}
-
+/* Artikel start */
 .artikeltekst {
     width: 80%;
     margin: auto;
     display: block;
 }
-
-
 
 .artikelflex {
     display: flex;
@@ -339,13 +346,7 @@ footer p {
     justify-content: center;
 }
 
-
-
-.margin {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
+/* Billeder flex start */
 .imgflex {
     width: 30%;
 }
@@ -354,7 +355,9 @@ footer p {
     width: 100%;
     padding: 5px;
 }
+/* Billeder flex start */
 
+/* Billeder 2 flex start */
 .imgflex2 {
     width: 25%;
 }
@@ -363,7 +366,9 @@ footer p {
     width: 100%;
     padding: 5px;
 }
+/* Billeder 2 flex slut */
 
+/* 4 billeder flex start  */
 .imgflex4 {
     width: 25%;
 }
@@ -372,12 +377,12 @@ footer p {
     width: 100%;
     padding: 5px;
 }
+/* 4 billeder flex start */
 
+/* Kaktus flex start */
 .imgflexlille {
     width: 25%;
 }
-
-
 
 .imgflexlille img {
     width: 50%;
@@ -385,7 +390,9 @@ footer p {
     display: block;
     margin: auto;
 }
+/* Kaktus flex slut */
 
+/* Logo grid start */
 #articlegrid {
     display: grid;
     height: auto;
@@ -440,7 +447,9 @@ footer p {
 #imggrid4 img {
     max-width: 100%;
 }
+/* Logo grid slut */
 
+/* Billeder udenfor flexbox start */
 .tsimg {
     display: block;
     margin: auto;
@@ -450,10 +459,18 @@ footer p {
 .tsimg img {
     width: 100%;
 }
+/* Billeder udenfor flexbox slut */
 
-    
+/* Artikel slut */
 
-
+/* CSS validator*/
+#cssvalidator {
+    border:0;
+    width:88px;
+    height:31px;
+    display: block;
+    margin: auto;
+}
 
 @media screen and (max-width: 750px) {
     #logo {
@@ -466,6 +483,7 @@ footer p {
         font-size: 120%;
     }
 
+    /* Navigation start */
     .topnav {
         margin-top: 0px;
     }
@@ -491,12 +509,12 @@ footer p {
         display: block;
         text-align: left;
     }
+    /* Navigation slut */
 
-
+    /* Portfolio start */
     .portfolio {
         display: flex;
         flex-direction: column;
-
     }
 
     .portfoliogrid {
@@ -546,7 +564,9 @@ footer p {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+    /* Portfolio slut */
 
+    /* Kontakt start */
     #kontakt {
         width: 100%;
         margin: 10px;
@@ -559,25 +579,8 @@ footer p {
         margin-bottom: 30px;
         padding-left: 30px;
     }
-
-
-
-    #cv {
-        width: 100%;
-        margin: 10px;
-        flex-direction: column;
-    }
-
-    #uddannelsecv {
-        width: 90%;
-        font-size: 120%;
-    }
-
-    #kompetancercv {
-        width: 90%;
-        font-size: 120%;
-    }
-
+    
+    /* Kontakt form start */
     .form {
         width: 90%;
     }
@@ -597,15 +600,40 @@ footer p {
         width: 50%;
         background-color: white;
     }
+    /* Kontaktform slut */
+    /* Kontakt slut */
 
+    /* CV start */
+    #cv {
+        width: 100%;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    #uddannelsecv {
+        width: 90%;
+        font-size: 120%;
+    }
+
+    #kompetancercv {
+        width: 90%;
+        font-size: 120%;
+    }
+    /* CV slut */
+
+    
+
+    /* Knap til toppen */
     #top {
         width: 7%;
     }
 
+    /* Opgaveinfo billede */
     .opgaveinfo img {
         width: 75%;
     }
 
+    /* Opgave billede flex start */
     .imgflex {
         width: 50%;
     }
@@ -642,6 +670,7 @@ footer p {
     .tsimg {
         width: 60%;
     }
+    /* Opgave billede flex start */
 }
 
 
@@ -662,6 +691,7 @@ footer p {
         margin: auto;
     }
 
+    /* Om mig grid start */
     .grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -694,6 +724,7 @@ footer p {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+    /* Om mig grid slut */
 
     .portfoliogrid {
         margin: 20px;
