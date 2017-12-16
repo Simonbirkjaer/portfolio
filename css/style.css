@@ -463,15 +463,6 @@ footer p {
 
 /* Artikel slut */
 
-/* CSS validator*/
-#cssvalidator {
-    border:0;
-    width:88px;
-    height:31px;
-    display: block;
-    margin: auto;
-}
-
 @media screen and (max-width: 750px) {
     #logo {
         width: 50%;
