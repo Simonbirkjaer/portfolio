@@ -514,13 +514,15 @@ footer p {
 
 
     }
-
+    /* Portfolio slut */
+    
+    /* Om mig start*/
     .grid {
         grid-template-columns: 1fr 1fr;
         margin-top: 20px;
         font-size: 120%;
     }
-
+    
     .a {
         grid-row-start: 2;
         grid-row-end: 3;
@@ -533,7 +535,6 @@ footer p {
         display: block;
         margin: auto;
     }
-
 
     .b {
         grid-row-start: 1;
@@ -555,7 +556,8 @@ footer p {
         grid-column-start: 1;
         grid-column-end: 3;
     }
-    /* Portfolio slut */
+    /* Om mig slut */
+    
 
     /* Kontakt start */
     #kontakt {
